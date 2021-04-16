@@ -1,0 +1,17 @@
+{
+	"name": "notifier",
+	"version": "1.0.0",
+	"description": "notifications app",
+	"main": "electron/main.js",
+	"scripts": {
+		"start": "electron .",
+		"build": "npx electron-packager . --platform linux --arch x64 --icon assets/sand-clock.icns --out dist/",
+		"linux:deb64": "npx electron-installer-debian --config=config.json"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"electron": "^12.0.3"
+	}
+}

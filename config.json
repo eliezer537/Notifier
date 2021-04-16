@@ -1,0 +1,8 @@
+{
+	"src": "dist/notifier-linux-x64/",
+	"dest": "dist/installers/",
+	"arch": "amd64",
+	"icon": "assets/sand-clock.png",
+	"categories": ["Utility"],
+	"lintianOverrides": ["changelog-file-missing-in-native-package"]
+}
